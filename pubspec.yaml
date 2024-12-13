@@ -1,0 +1,38 @@
+name: totale_reussite_admin
+description: L'application d'administration de notre application totale reussite.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^4.0.6
+  http: ^0.13.5
+  file_picker: ^5.2.5
+  url_launcher: ^6.1.6
+  image_picker: ^0.8.6
+  external_path: ^1.0.3
+  firebase_auth: ^4.0.1
+  firebase_core: ^2.0.0
+  google_sign_in: ^5.4.2
+  cloud_firestore: ^4.0.1
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.1.1
+  flutter_markdown: ^0.6.15
+  firebase_storage: ^11.0.11
+  flutter_parsed_text: ^2.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
